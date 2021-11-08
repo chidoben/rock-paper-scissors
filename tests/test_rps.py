@@ -21,10 +21,6 @@ def test_get_number_of_rounds_returns_the_right_number_of_rounds(monkeypatch):
     assert expected_number_of_rounds == returned_number_of_rounds
 
 
-def test_get_number_of_rounds_returns_number_of_rounds():
-    """ """
-
-
 def test_get_player_choice_returns_player_choice(monkeypatch):
     """
     Test that get_player_choice returns the right game choice entered
